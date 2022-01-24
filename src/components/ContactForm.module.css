@@ -1,0 +1,24 @@
+.block{
+    background-color: #b4a377;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+.blockHeader{
+
+}
+.blockContentWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    width: 81vw;
+}
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    min-width: 260px;
+    /*max-width: 800px;*/
+}
+

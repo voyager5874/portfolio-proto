@@ -1,0 +1,33 @@
+.projectBlock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(110, 126, 148);
+    min-height: 100vh;
+    padding-bottom: 40px;
+
+}
+.projectBlockContentWrapper{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    min-height: 80vh;
+    border: 1px solid;
+}
+.blockHeader{
+    background-color: #7eaf9b;
+    height: 10vh;
+    text-align: center;
+    border: 1px solid;
+    padding-top: 5px;
+}
+
+.projectBox{
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 300px;
+    justify-content: space-around;
+    align-items: flex-end;
+}

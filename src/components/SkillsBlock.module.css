@@ -1,0 +1,32 @@
+.block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f59a79;
+    min-height: 100vh;
+    padding-bottom: 40px;
+}
+.blockContent{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    min-height: 80vh;
+    border: 1px solid;
+}
+.blockHeader{
+    height: 10vh;
+    text-align: center;
+    padding-top: 5px;
+    background-color: cornflowerblue;
+    margin: 0;
+}
+
+.skillBox{
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 300px;
+    justify-content: space-around;
+    align-items: flex-end;
+}

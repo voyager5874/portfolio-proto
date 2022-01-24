@@ -1,0 +1,13 @@
+.blockContentWrapper{
+    height: 70%;
+    width: 80vw;
+    display:flex;
+    align-items: center;
+}
+
+.block{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

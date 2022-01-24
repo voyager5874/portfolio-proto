@@ -1,0 +1,31 @@
+.skillCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid;
+    text-align: center;
+    max-width: 600px;
+    min-width: 260px;
+    min-height: 35vh;
+    background-color: rgba(135, 173, 183, 0.81);
+    /*padding: 0 10px 10px;*/
+    margin-bottom: 10px;
+}
+
+.techSign{
+    width: 70px;
+    height: 70px;
+    background-color: #176683;
+}
+
+.techName{
+    padding: 10px;
+    background-color: #c38dc9;
+}
+
+.techDescription{
+    padding: 10px;
+    background-color: rgba(21, 22, 215, 0.4);
+    margin: 0;
+}

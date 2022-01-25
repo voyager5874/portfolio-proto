@@ -5,7 +5,7 @@ import {SkillCard} from "./SkillCard";
 export const SkillsBlock = () => {
     return (
         <div className={styles.block}>
-            <div className={styles.blockContent}>
+            <div className={styles.blockContentBox}>
                 <h2 className={styles.blockHeader}>Мои навыки</h2>
                 <div className={styles.skillBox}>
                     <SkillCard name={"React"}/>

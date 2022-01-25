@@ -1,4 +1,38 @@
-.footer{
+.block {
+    display: flex;
+    justify-content: center;
     background-color: cadetblue;
-    height: 80px;
+    height: 200px;
+}
+
+.blockContentBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid;
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.blockHeader {
+    background-color: #b4a377;
+}
+
+.contactsBox {
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    width: 260px;
+}
+
+.contact {
+    width: 40px;
+    height: 40px;
+    background-color: #066285;
+}
+
+.ps {
+    background-color: #605372;
 }

@@ -4,19 +4,16 @@ import {ProjectCard} from "./ProjectCard";
 
 export const ProjectsBlock = () => {
     return (
-        <div className={styles.projectBlock}>
-            <div className={styles.projectBlockContentWrapper}>
+        <div className={styles.block}>
+            <div className={styles.blockContentBox}>
                 <h2 className={styles.blockHeader}>Мои работы</h2>
-                <div className={styles.projectBox}>
+                <div className={styles.projectsBox}>
                     <ProjectCard name={"Social Network"}/>
                     <ProjectCard name={"Simple todo list App"}/>
                     <ProjectCard name={"Simple todo list App"}/>
                     <ProjectCard name={"Simple todo list App"}/>
                 </div>
-
             </div>
-
-
         </div>
     );
 };

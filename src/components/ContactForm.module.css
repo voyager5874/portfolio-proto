@@ -2,23 +2,36 @@
     background-color: #b4a377;
     display: flex;
     justify-content: center;
-    height: 300px;
+    min-height: 300px;
 }
-.blockHeader{
-
-}
-.blockContentWrapper{
+.blockContentBox{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     border: 1px solid;
-    width: 81vw;
+    width: 80%;
+    margin-bottom: 40px;
+    margin-top:  40px;
+}
+.blockHeader{
+    background-color: #c38dc9;
+    height: 5vh;
 }
 .contactForm{
+    border: 1px solid;
     display: flex;
     flex-direction: column;
     min-width: 260px;
+    align-items: center;
     /*max-width: 800px;*/
+}
+.inputField{
+    margin-bottom: 5px;
+    width: 260px;
+    resize: none;
+}
+.submitButton{
+    width: 100px;
 }
 

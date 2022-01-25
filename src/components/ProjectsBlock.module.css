@@ -1,4 +1,4 @@
-.projectBlock{
+.block{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,10 +7,10 @@
     padding-bottom: 40px;
 
 }
-.projectBlockContentWrapper{
+.blockContentBox{
     display: flex;
     flex-direction: column;
-    width: 80vw;
+    width: 80%;
     min-height: 80vh;
     border: 1px solid;
 }
@@ -22,7 +22,7 @@
     padding-top: 5px;
 }
 
-.projectBox{
+.projectsBox{
     background-color: yellow;
     display: flex;
     flex-direction: row;
